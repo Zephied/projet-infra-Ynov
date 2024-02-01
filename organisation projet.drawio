@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T10:41:46.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KXnb0FDlCz65qEaVeqGI" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T10:42:35.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="kpiOKxwGmrUPEUljpoAf" version="23.0.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2787" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1960" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,11 +9,11 @@
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="260" as="targetPoint" />
+            <mxPoint x="560" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="1. site web" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="55" width="330" height="230" as="geometry" />
+          <mxGeometry x="100" y="40" width="330" height="230" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="wllnhXUUlLf9FEZYVpir-1" target="wllnhXUUlLf9FEZYVpir-2">
           <mxGeometry relative="1" as="geometry" />
@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-9" value="2. certificats/dns + heberger sur vm" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="360" width="390" height="220" as="geometry" />
+          <mxGeometry x="70" y="345" width="390" height="220" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-11" value="renseiger sur certificat et appliquer&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wllnhXUUlLf9FEZYVpir-9">
           <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
@@ -52,7 +52,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-14" value="3. reserver proxy/loadbalancing" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="670" width="410" height="240" as="geometry" />
+          <mxGeometry x="60" y="655" width="410" height="240" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-16" value="gerer les avaries avec des redirections de serveur et partage de la charge" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wllnhXUUlLf9FEZYVpir-14">
           <mxGeometry x="220" y="120" width="160" height="60" as="geometry" />
@@ -61,7 +61,7 @@
           <mxGeometry x="60" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-19" value="documenter" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="60" width="200" height="810" as="geometry" />
+          <mxGeometry x="560" y="45" width="200" height="810" as="geometry" />
         </mxCell>
         <mxCell id="wllnhXUUlLf9FEZYVpir-24" value="outils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wllnhXUUlLf9FEZYVpir-19">
           <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
