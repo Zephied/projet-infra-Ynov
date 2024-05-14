@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT and Spotify API Connectors</title>
+    <style>
+        /* Custom CSS for button styling */
+        .integration-button {
+            background-color: #007bff; /* Blue color */
+            color: #fff; /* White text */
+            border: none;
+            padding: 20px 40px; /* Adjust padding for larger buttons */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Center the buttons */
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Center the Integration Buttons text */
+        h1 {
+            text-align: center;
+            color: black; /* White text */
+        }
+
+        /* Background image */
+        body {
+            background-image: url('background_image.jpg'); /* Replace 'background-image.jpg' with your image path */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif; /* Fallback font */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for the entire content */
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Connect to ChatGPT or Spotify</h1>
+        <div class="button-container">
+            <button class="integration-button" onclick="connectToChatGPT()">ChatGPT</button>
+            <button class="integration-button" onclick="connectToSpotify()">Spotify</button>
+        </div>
+    </div>
+
+    <script>
+        function connectToChatGPT() {
+            window.open('http://localhost:8501/', '_blank');
+        }
+
+        function connectToSpotify() {
+            window.open('http://localhost:8502/', '_blank'); // Point to the Spotify Streamlit app on port 8502
+        }
+    </script>
+</body>
+</html>
